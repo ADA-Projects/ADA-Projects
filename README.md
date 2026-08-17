@@ -1,50 +1,58 @@
 # Alessandro D'Angelo
 
-**Math PhD · AI Engineer · Formal Methods**
+**Senior Research Scientist · AI and Formal Methods Engineer · PhD Mathematician**
 
-AI Lead at Beneficial AI Foundation · AI Engineer at Kodamai · Based in Rome
+Independent contractor with the Beneficial AI Foundation and Kodamai · Based in Rome
 
 ## About
 
-I work on formal verification and the AI tooling around it. At the Beneficial AI Foundation I lead AI tooling and verify cryptographic code in Lean 4. At Kodamai I build agentic systems on foundations from dependent type theory and category theory. Before industry I did a PhD in algebraic geometry (motivic homotopy theory) and a postdoc at KTH. The math background is why I treat a proof as the unit of trust, in code as much as in theorems.
+I work at the intersection of formal verification, cryptography, and AI.
 
-## What I'm working on
+I contract with the [Beneficial AI Foundation](https://www.beneficialaifoundation.org/) as a Senior Research Scientist, contributing to [Signal Shot](https://www.beneficialaifoundation.org/signal-shot). My current focus is post-quantum cryptography formalisation in the [secure-messaging](https://github.com/Beneficial-AI-Foundation/secure-messaging) project.
 
-**AI Lead, Beneficial AI Foundation**
-- Lead AI tooling for the formal verification team: autoformalization and LLM-assisted proof writing
-- Verify curve25519-dalek in Lean 4, the elliptic curve library behind Signal's protocol
+Separately, I contract with [Kodamai](https://www.kodamai.com/) as an AI engineer, building verified agentic infrastructure using ideas from category theory, type theory, and neuro-symbolic AI.
 
-**AI Engineer, Kodamai**
-- Building agentic systems on foundations from dependent type theory and category theory
+My background is in pure mathematics. I completed a PhD in Algebraic Geometry and a postdoc at KTH Royal Institute of Technology.
+
+## Current work
+
+### Signal Shot: secure messaging formalisation
+
+Lean 4 specifications and machine-checked proofs for secure messaging protocols, with a focus on post-quantum cryptography.
+
+- [Signal Shot](https://www.beneficialaifoundation.org/signal-shot)
+- [secure-messaging](https://github.com/Beneficial-AI-Foundation/secure-messaging)
+
+### Verified agentic infrastructure
+
+Mathematically grounded orchestration for specialised enterprise agents at [Kodamai](https://www.kodamai.com/).
 
 ## Selected work
 
-### Mathlib contribution: topological Krull dimension
-A merged PR into Lean's core math library.
-https://github.com/leanprover-community/mathlib4/pull/29728
+### KW-Euler Classes via Twisted Symplectic Bundles
+
+Research developed from part of my PhD thesis and published in the *Journal of the Institute of Mathematics of Jussieu*.
+
+[Read the published paper](https://www.cambridge.org/core/journals/journal-of-the-institute-of-mathematics-of-jussieu/article/mathrm-kweuler-classes-via-twisted-symplectic-bundles/9882DD0AA110D6FC1562A27D05EB30FC)
 
 ### curve25519-dalek verification in Lean 4
-Formalizing a production cryptographic library (Ristretto, Montgomery reduction, the Elligator map) against Mathlib's elliptic curve modules. Also feeds data generation for autoformalization.
-https://github.com/Beneficial-AI-Foundation/curve25519-dalek-lean-verify
 
-### Algebraic geometry in Lean 4
-700+ lines on topological Krull dimension theory.
-https://github.com/ADA-Projects/Lean-AG
+Contributed to the Lean 4 formal verification of the curve25519-dalek cryptographic library, including coordinating pull-request reviews.
 
-### Near-real-time speech translation (Pi School fellowship)
-Italian to English pipeline for technical lectures. BLEU ≥ 40, COMET ≥ 0.75 on scientific content, latency under 4s. Whisper ASR, translation, Kokoro TTS. Led the team.
+[curve25519-dalek-lean-verify](https://github.com/Beneficial-AI-Foundation/curve25519-dalek-lean-verify)
+
+### Topological Krull dimension in Mathlib
+
+Contributed formalised algebraic geometry to Lean's mathematical library.
+
+- [Mathlib contribution](https://github.com/leanprover-community/mathlib4/pull/29728)
+- [Lean-AG](https://github.com/ADA-Projects/Lean-AG)
 
 ## Tools
 
-Lean 4, Python, Rust. Verification toolchain: Aeneas/Charon (Rust to Lean 4), SMT solvers.
-
-## Background
-
-PhD in Mathematics, algebraic geometry and motivic homotopy theory, University of Duisburg-Essen
-Postdoctoral researcher, KTH Royal Institute of Technology
-Pi School of AI fellow
+Lean 4 · Rust · Python · Aeneas/Charon · SMT solvers
 
 ## Contact
 
-Website: https://a-dangelo.com
-LinkedIn: https://www.linkedin.com/in/alessandro-d-angelo-644213355/
+- [Website](https://a-dangelo.com)
+- [LinkedIn](https://www.linkedin.com/in/alessandro-d-angelo-644213355/)
